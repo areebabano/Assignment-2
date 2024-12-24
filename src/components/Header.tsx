@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar"
 const Header = () => {
   return (
         <header>
-            <div className='bg-gray-200 p-4 flex justify-between items-center'>
+            <div className='bg-gray-200 p-4 flex justify-between items-center max-w-7xl mx-auto'>
         <Image
           src="/logo.jpg"
           alt='Logo'
@@ -21,3 +21,4 @@ const Header = () => {
 }
 
 export default Header
+
